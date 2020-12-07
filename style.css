@@ -7,33 +7,45 @@
   padding: 0;
 }
 
+img {
+	width: 100%;
+	max-height: auto;
+}
+
 body {
   font-family: sans-serif;
   font-size: 16px;
-  background-color: silver;
+  background-color: #DDDDDD;
 }
 
+#logo{
+		width: auto;
+	max-height: 100%;
+}
 /*-------------------------------
          LAYOUT MOBILE
 --------------------------------*/
 
 #container {
-  margin: auto;
-  max-width: 960px;
+	margin: auto;
+	max-width: 960px;
 }
 
 header {
-  position: relative;
-  height: 5rem;
-  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
-  background-color: #333;
-  color: white;
+	display: flex;
+	margin: auto;
+	height: 7rem;
+	border-image-width: auto;
+	box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+	background-color: clear;
+	color: 333333;
 }
 header h1 {
-  position: absolute;
-  top: 1.5rem;
-  left: 2rem;
-  font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	top: 1.5rem;
+	left: 2rem;
+	font-size: 1.2rem;
 }
 
 #lists {
